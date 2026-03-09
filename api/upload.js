@@ -2,8 +2,8 @@ import fetch from 'node-fetch';
 
 // GitHub configuration – replace with your values (or set env vars)
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;      // set in Vercel environment
-const REPO_OWNER = process.env.REPO_OWNER || 'your-username';
-const REPO_NAME = process.env.REPO_NAME || 'my-image-host';
+const REPO_OWNER = process.env.REPO_OWNER || 'SDZER';
+const REPO_NAME = process.env.REPO_NAME || 'image-to-link';
 const BRANCH = process.env.BRANCH || 'main';
 
 export default async function handler(req, res) {
