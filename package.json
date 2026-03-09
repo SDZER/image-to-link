@@ -1,18 +1,18 @@
 {
-    "name": "god-x-image2link",
-    "version": "1.0.0",
-    "description": "Upload images to GitHub and get raw link",
-    "main": "api/upload.js",
-    "scripts": {
-        "dev": "vercel dev"
-    },
-    "dependencies": {
-        "node-fetch": "^2.6.7"
-    },
-    "devDependencies": {
-        "vercel": "^32.0.0"
-    },
-    "engines": {
-        "node": "16.x"
-    }
+  "name": "god-x-image2link",
+  "version": "1.0.0",
+  "description": "Upload images to GitHub and get raw link",
+  "main": "api/upload.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": "24.x"
+  }
 }
